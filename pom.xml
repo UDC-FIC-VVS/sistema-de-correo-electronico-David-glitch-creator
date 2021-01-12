@@ -25,6 +25,20 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- Core junit-quickcheck -->
+    <dependency>
+      <groupId>com.pholser</groupId>
+      <artifactId>junit-quickcheck-core</artifactId>
+      <version>0.7</version>
+    </dependency>
+
+    <!-- consists of generators for basic Java types, such as primitives, arrays,
+     and collections -->
+    <dependency>
+      <groupId>com.pholser</groupId>
+      <artifactId>junit-quickcheck-generators</artifactId>
+      <version>0.7</version>
+    </dependency>
   </dependencies>
 
   <build>
